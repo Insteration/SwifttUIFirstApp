@@ -12,15 +12,16 @@ import SwiftUI
 struct ContentView : View {
     
     var body: some View {
+
         VStack(alignment: .leading) {
-            Text("Turtle Rock")
-            .font(.title)
+            
+            Text("Something else").font(.title)
             
             HStack {
-                Text("Best rock in the world")
-                .font(.subheadline)
-                Text("Ukraine")
-                .font(.subheadline)
+                Text("And what about SwiftUI?").font(.subheadline)
+            }
+            HStack {
+                Text("Ooouch! It's Amazing").font(.subheadline)
             }
         }
     }
